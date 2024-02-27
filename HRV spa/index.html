@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hotel River Valley</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+
+    <!-- TOP NAV
+    <div class="top-nav" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p> <i class='bx bxs-envelope'></i>hotelrivervalleypunakha@gmail.com
+                    </p>
+                    <p> <i class='bx bxs-phone-call'></i>+975-77114929 or +975-17114929 
+                    </p>
+                </div>
+                <div class="col-auto social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- BOTTOM NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hotel Rivervalley</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        .header {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header img {
+            width: 100%;
+            height: auto;
+            animation: scaleAnimation 5s infinite alternate;
+        }
+
+        @keyframes scaleAnimation {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .header .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 36px;
+            font-weight: bold;
+            color: white;
+            opacity: 0;
+            animation: fadeInOut 5s infinite alternate;
+        }
+
+        @keyframes fadeInOut {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+        @media screen and (max-width: 600px) {
+        .header .text {
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Arial, sans-serif;
+        }
+    }
+
+    @media screen and (min-width: 601px) {
+        .header .text {
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Arial, sans-serif;
+        }
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header img {
+        width: 100%;
+    }
+    </style>
+    </head>
+    <body>
+        <section id="home">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col">
+                        <div class="header">
+                            <img src="img/bg.jpeg" alt="Hotel River Valley" class="img-fluid">
+                            <div class="text">Hotel Rivervalley <br>The Best Place to Stay!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" style="padding: 50px 0;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col text-center" data-aos="fade-up">
+                        <h2 class="heading text-primary">Kuzuzangpo La!</h2>
+                        <p class="m-0">
+                            Hotel Rivervalley is located at the opposite side of Khuruthang Town, Punakha. It is close to many of the local sightseeing attractions, and the best thing about our hotel is the surreal and majestic views of surrounding mountains, rivers, monuments, and the valleys covering the vicinity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+        <section id="rooms">
+            <h1 class="text-center">Rooms</h1>
+            <div class="container">
+                <div class="row">
+                    <!-- Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/display-1.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Delux Room</h4>
+                                <!--Text-->
+                                <p class="card-text">Lavishly appointed sanctuaries with mesmerizing views and indulgent amenities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+        
+                    <!-- Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/display-4.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Premium Room</h4>
+                                <!--Text-->
+                                <p class="card-text">Sumptuously designed retreats, offering unparalleled comfort and enchanting ambiance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+        
+                    <!-- Card -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <!--Card image-->
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/display-2.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">Service Apartments</h4>
+                                <!--Text-->
+                                <p class="card-text">Fully furnished urban oasis, blending convenience, comfort, and captivating allure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+            </div>
+        </section>
+        >
+        
+        
+        <section id="services">
+            <h1 class="text-center">Our Services</h1>
+            <style>
+                /* Custom styles */
+                .card {
+                    transition: transform 0.2s;
+                }
+
+                .card:hover {
+                    transform: translateY(-5px);
+                }
+
+                /* Set a fixed height for card images */
+                .card-img-top {
+                    height: 200px;
+                    /* Adjust as needed */
+                    object-fit: cover;
+                    /* Ensure the image covers the entire space */
+                }
+            </style>
+
+            <div class="container mt-5">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <!-- Cards -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/display-1.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Accommodation</h4>
+                                <p class="card-text">Luxurious stay in our Deluxe Rooms, Premium Rooms, and Service
+                                    Apartments.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/bar.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Restaurant & Bar</h4>
+                                <p class="card-text">Enjoy exquisite cuisine in our spacious dining area, with a variety
+                                    of Western, Asian, and local organic Bhutanese dishes. Refresh with a variety of
+                                    local and foreign drinks at our ‘Dungkar Bar’.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/cafe.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Cafeteria</h4>
+                                <p class="card-text">Savor a cup of tea or coffee at ‘Café DZ’ while enjoying
+                                    breathtaking views of Khuruthang Town, rivers, mountains, and valleys.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/courtyart.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Courtyard</h4>
+                                <p class="card-text">A unique courtyard for dining and events.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/gym.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Fitness center</h4>
+                                <p class="card-text">A state-of-the-art fitness center and a relaxing spa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col mb-4">
+                        <div class="card">
+                            <div class="view overlay">
+                                <img class="card-img-top" src="img/conference.jpeg" alt="Card image cap">
+                                <a href="#!">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Conference Hall </h4>
+                                <p class="card-text">A well-equipped conference hall for meetings and seminars.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <!-- Gallery -->
+            <h1 class="h2 text-center">Gallery</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="img/display-1.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+                    <img src="img/display-2.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Wintry Mountain Landscape" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="img/bar.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+                    <img src="img/holi.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="img/dinner.jpeg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                    <img src="img/grouppic.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Yosemite National Park" />
+                </div>
+            </div>
+            <!-- Gallery -->
+        </section>
+
+        <section class="section contact-section" id="reservation">
+            <div class="container">
+                <h1>Reserve Now!</h1>
+                <div class="row">
+                    <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+
+                        <form action="#" method="post" class="bg-white p-md-5 p-4 mb-5 border">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label class="text-black font-weight-bold" for="name">Name</label>
+                                    <input type="text" id="name" class="form-control ">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label class="text-black font-weight-bold" for="phone">Phone</label>
+                                    <input type="text" id="phone" class="form-control ">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label class="text-black font-weight-bold" for="email">Email</label>
+                                    <input type="email" id="email" class="form-control ">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label class="text-black font-weight-bold" for="checkin_date">Date Check In</label>
+                                    <input type="text" id="checkin_date" class="form-control">
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label class="text-black font-weight-bold" for="checkout_date">Date Check
+                                        Out</label>
+                                    <input type="text" id="checkout_date" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="adults" class="font-weight-bold text-black">Adults</label>
+                                    <div class="field-icon-wrap">
+                                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                        <select name="" id="adults" class="form-control">
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4+</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="children" class="font-weight-bold text-black">Children</label>
+                                    <div class="field-icon-wrap">
+                                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                        <select name="" id="children" class="form-control">
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4+</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row mb-4">
+                                <div class="col-md-12 form-group">
+                                    <label class="text-black font-weight-bold" for="message">Notes</label>
+                                    <textarea name="message" id="message" class="form-control " cols="30"
+                                        rows="8"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="submit" value="Reserve Now"
+                                        class="btn btn-warning text-white py-3 px-5 rounded-pill font-weight-bold">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="row">
+                    <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+
+                        <form action="https://api.web3forms.com/submit" method="post"
+                            class="bg-white p-md-5 p-4 mb-5 border">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <label for="name">Name</label>
+                                    <input type="hidden" name="access_key" value="4b81ddba-8b5e-4852-a8a9-e663e2a35b35">
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" id="phone" name="phone" class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-md-12 form-group">
+                                    <label for="message">Write Message</label>
+                                    <textarea name="message" id="message" class="form-control" cols="30" rows="8"
+                                        required></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="submit" value="Send Message"
+                                        class="btn btn-warning text-white font-weight-bold rounded-pill">
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <div class="col-md-5" data-aos="fade-up" data-aos-delay="200">
+                  <div class="row">
+                    <div class="col-md-10 ml-auto contact-info">
+                      <p><span class="d-block">Address:</span> <span> bhutan</span></p>
+                      <p><span class="d-block">Phone:</span> <span> ------- </span></p>
+                      <p><span class="d-block">Email:</span> <span> ---------- </span></p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+                </div>
+        </section>
+
+
+
+        <footer>
+            <div class="footer-top text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h4 class="navbar-brand">Hotel River Valley<span class="dot">.</span></h4>
+                            <p>We are delighted to introduce our deluxe rooms, premium rooms and other services and
+                                facilities which provides leisure and business travelers with luxurious retreat and restful
+                                atmosphere.</p>
+                            <div class="col-auto social-icons">
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                            <div class="col-auto conditions-section">
+                                <p>Email: hotelrivervalleypunakha@gmail.com</p>
+                                <br>
+                                <p>Phone: 77114929 or 17114929</p>
+                                <br>
+                                <p>Location:Opposite to Khuruthang Town in Punakha</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p class="mb-0">Copyright &copy; | All RIghts Reserved 2024.</p>
+            </div>
+        </footer>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-body p-0">
+                        <div class="container-fluid">
+                            <div class="row gy-4">
+                                <div class="col-lg-4 col-sm-12 bg-cover"
+                                    style="background-image: url(img/c2.jpg); min-height:300px;">
+                                    <div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <form class="p-lg-5 col-12 row g-3">
+                                        <div>
+                                            <h1>Get in touch</h1>
+                                            <p>Fell free to contact us and we will get back to you as soon as possible
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label for="userName" class="form-label">First name</label>
+                                            <input type="text" class="form-control" placeholder="Jon" id="userName"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label for="userName" class="form-label">Last name</label>
+                                            <input type="text" class="form-control" placeholder="Doe" id="userName"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="userName" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" placeholder="Johndoe@example.com"
+                                                id="userName" aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="exampleInputEmail1" class="form-label">Enter Message</label>
+                                            <textarea name="" placeholder="This is looking great and nice."
+                                                class="form-control" id="" rows="4"></textarea>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-brand">Send Message</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
